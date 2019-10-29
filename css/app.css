@@ -50,6 +50,8 @@ header{
 }
 .content{
     padding: 15px;
+    width: 100%;
+    margin: 0 auto;
 }
 .presentation{
     text-align: center;
@@ -173,4 +175,40 @@ form input, form textarea{
     font-family: 'Jura', sans-serif;
     padding: 5px;
     margin-bottom: 15px;
+}
+
+@media (min-width: 812px){
+    .content{
+        width: 800px;
+    }
+    .presentation{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        text-align: left;
+    }
+    .credentials{
+        margin: 10px 0 0 50px;
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    form .input-group{
+        width: 47%;
+        margin-right: 20px;
+    }
+    form .input-group:nth-child(3){
+        width: 64%;
+        margin-right: 20px;
+    }
+    form .input-group:last-child{
+        width: 30%;
+    }
+}
+@media (min-width: 1025px){
+    .content{
+        width: 1024px;
+    }
 }
