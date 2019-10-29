@@ -206,6 +206,15 @@ form input, form textarea{
     form .input-group:last-child{
         width: 30%;
     }
+    .skill .tohide{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .skill .cart-bloc{
+        width: 30%;
+        margin-bottom: 50px;
+    }
 }
 @media (min-width: 1025px){
     .content{
