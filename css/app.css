@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #ddd;
+    font-size: 16px;
+
+}
+h1,h2,h3{
+    font-family: 'Jura', sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+a, a:visited{
+    color: inherit;
+}
+header{
+    background-color: #183b51;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+.socials{
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+.socials a{
+    font-size: 25px;
+    color: #fff;
+}
+.socials a:hover{
+    text-shadow: 3px 3px 3px #000;
+    color: #ddd;
+}
+.socials span{
+    margin-left: 20px;
+}
+.content{
+    padding: 15px;
+}
+.presentation{
+    text-align: center;
+    background-color: #fff;
+padding: 0 20px 20px 20px;
+    margin: -120px 0 60px 0;
+}
+.credentials h2{
+    margin-bottom: 20px;
+}
+.credentials ul{
+    text-align: left;
+}
+.credentials li{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.credentials i{
+    margin-right: 30px;
+}
+
+.expand{
+    text-align: right;
+    font-size: 40px;
+    color: #183b51;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.plus{
+    display: none;
+}
+.cart{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    margin-bottom: 100px;
+}
+.career{
+    padding: 40px 40px 40px 40px;
+    position: relative;
+}
+.career h2{
+    font-family: 'Jura', sans-serif;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    color: #183b51;
+}
+.career h2.title-outside{
+    top: -50px;
+    left: 0;
+    transition: 0.5s;
+}
+.career h2.title-inside{
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+}
+.date{
+    font-weight: 700;
+    margin-bottom: 10px;
+    background-color: #183b51;
+    color: #fff;
+    padding: 3px 10px;
+}
+.cart-bloc{
+    margin-bottom: 30px;
+}
+.cart-bloc p{
+    margin-bottom: 5px;
+}
+.cart-bloc li{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.techno{
+    font-weight: 700;
+    margin-right: 5px;
+    width: 90px;
+    display: inline-block;
+}
+.star{
+    margin-right: 2px;
+}
+.star-on{
+    color: #183b51;
+}
+.star-off{
+    color: #ddd;
+}
+footer{
+    background-color: #183b51;
+    color: #ffffff;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    font-weight: 700;
+    color: #183b51;
+    background-color: #ddd;
+    border: 1px solid #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 100%;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #183b51;
+}
+form label{
+    display: none;
+}
+form input, form textarea{
+    width: 100%;
+    height: 44px;
+    font-size: 1.4em;
+    font-family: 'Jura', sans-serif;
+    padding: 5px;
+    margin-bottom: 15px;
+}
